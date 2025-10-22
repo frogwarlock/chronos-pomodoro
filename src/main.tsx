@@ -4,7 +4,8 @@ import './index.css'
 import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
-  <StrictMode>
+  // boas práticas usar garante que enquanto a aplicação está em desenvolvimento ela funcione corretamente
+  <StrictMode> 
     <App />
   </StrictMode>,
 )
